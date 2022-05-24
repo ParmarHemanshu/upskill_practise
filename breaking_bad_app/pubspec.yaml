@@ -1,0 +1,40 @@
+name: breaking_bad_app
+description: Flutter assignment task using Breaking Bad Api call and TDD
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #ui
+  cupertino_icons: ^1.0.4
+  #api call
+  dio: ^4.0.6
+  #state management
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  #error handling
+  dartz: ^0.10.1
+  #dependency injection
+  get_it: ^7.2.0
+  #for launcher icon
+  flutter_launcher_icons: ^0.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/app_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
